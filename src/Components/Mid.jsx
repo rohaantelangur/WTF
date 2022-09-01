@@ -147,7 +147,7 @@ export const Mid = () => {
         </div>
 ))}
 
-{places && places.data[0].addressComponent?.map((item)=>(
+{/* {places.length===0 && places?.data[0]?.addressComponent?.map((item)=>(
         <div>
           <div className="row  sepeatediv">
             <div className="col-5 ">
@@ -182,7 +182,7 @@ export const Mid = () => {
             </div>
           </div>
         </div>
-))}
+))} */}
 
       </div>
     </div>
